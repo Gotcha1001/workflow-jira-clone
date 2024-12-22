@@ -1,7 +1,18 @@
 {
   "compilerOptions": {
+    "jsx": "react",
+    "module": "ESNext",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }
-  }
+    },
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules", ".next", "build"]
 }
